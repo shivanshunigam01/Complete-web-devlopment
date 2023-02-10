@@ -4,18 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Html canva</title>
 </head>
 <body>
     <script>
-        var a= confirm("Are you sure?");
-        if(a==true){
-            alert("User Acceped");
-        }
-        else{
-        alert("User canceled")
-        }   
+            function draw() {
+        const ctx = document.getElementById("canvas").getContext("2d");
+        ctx.font = "48px serif";
+        ctx.strokeText("Hello world", 10, 50);
+      }
+      
     </script>
-    
+
 </body>
 </html>
