@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            background-color: aqua;
+            background-color: khaki;
+            height: 3444px;
+        }
+
+        
+        /* position: static(default),  relative ,absolute, fixed, sticky */
+    .box{
+        border: 2px solid red;
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+        margin: 2px;
+       
+    }         
+    #box3{
+        /* position: relative;
+       
+        position: static;
+        position: fixed;
+        right: 4px;
+        bottom: 4px; */
+
+        position: sticky;
+        top: 3px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box" id="box1">1</div>
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">Chat with us</div>
+    <div class="box" id="box4">4</div>
+</div>
+</body>
+</html>
