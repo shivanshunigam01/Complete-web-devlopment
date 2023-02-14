@@ -1,0 +1,27 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+</head>  
+<body style = "text-align: center; font-size: 20px;">  
+<h1> To find the factorial of a number </h1>  
+Enter a number: <input id = "num">  
+<br><br>  
+<button onclick = "fact()"> Factorial </button>  
+<p id = "res"></p>  
+
+
+<script>  
+function fact(){  
+var i, num, f,factorial  
+f = 1;  
+num = document.getElementById("num").value;  
+for(i = 1; i <= num; i++)    
+{  
+factorial = factorial * i;  
+}  
+
+document.getElementById("res").value = factorial ;  
+}  
+</script>  
+</body>  
+</html>
