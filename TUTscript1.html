@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javscript tutorials</title>
+    <script>
+        function validate()
+        {
+            var Username=document.getElementById("Uname");
+            var Password=document.getElementById("pass")
+
+            if(Username.value==""|| Password.value==""){
+                alert("Fill somehting man!");
+            }
+            else{
+
+                document.write("Login sucessfuly!");
+
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <p>
+        This is the firs javascript tut
+    </p>
+   <form onsubmit="validate()">
+    <input id="Uname" placeholder="Username"
+    type="text" />
+    <br> <br>
+    <input id="pass" placeholder="Password"
+    type="password" />
+    <br>
+    <br>
+
+    <button type="submit">Submit</button>
+    
+
+   </form>
+</body>
+</html>
