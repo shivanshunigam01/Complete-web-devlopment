@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create form</title>
+    <script>
+    // function validate()
+    // {
+    //     var Username=document.getElementById("Uname");
+    //     var Password=document.getElementById("pass")
+
+    //     if(Username.value==""|| Password.value==""){
+    //         alert("Fill somehting man!");
+    //     }
+    //     else{
+
+    //         document.write("Login sucessfuly!");
+
+    //     }
+    // }
+
+
+        function valid()
+        var username=document.getElementById("uname");
+        var password=document.getElementById("pass");
+
+        if(username.value==""||password.value==""){
+            alert("Fill the details!!!");
+        }
+        else{
+           
+        }
+</script>
+</head>
+<body>
+    <h1>This is my login form friends...</h1>
+    <form >
+        <input id="uname" type="text" placeholder="Username" >
+        <br>
+        <br>
+        <input id="pass" type="password" placeholder="Password">
+        <br><br>
+        <button onclick="valid()" type="submit" >Submit</button>
+        <!-- <a href="https://www.instagram.com/">click </a> -->
+    </form>
+    
+</body>
+</html>
