@@ -18,7 +18,7 @@
             xhttp.onreadystatechange = function(){
                 if(this.readyState == 4 && this.status == 200)
                 {
-                    document.getElementById("demo").innerHTML = this.responseText;
+                    document.write("Hey i am changed man!")
                 }
             };
             xhttp.open("GET" , "test.txt" , true);
