@@ -23,6 +23,7 @@
 
 
         function valid()
+        {
         var username=document.getElementById("uname");
         var password=document.getElementById("pass");
 
@@ -32,17 +33,19 @@
         else{
            
         }
+    }
 </script>
 </head>
 <body>
     <h1>This is my login form friends...</h1>
-    <form >
+    <form onsubmit="valid()">
         <input id="uname" type="text" placeholder="Username" >
         <br>
         <br>
         <input id="pass" type="password" placeholder="Password">
         <br><br>
-        <button onclick="valid()" type="submit" >Submit</button>
+        <!-- <input type="submit" value="submit"> -->
+        <button type="submit" >Submit</button>
         <!-- <a href="https://www.instagram.com/">click </a> -->
     </form>
     
